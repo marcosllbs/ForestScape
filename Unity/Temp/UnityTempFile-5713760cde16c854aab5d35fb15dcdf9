@@ -1,0 +1,625 @@
+/target:library
+/out:Temp/Unity.InputSystem.dll
+/nowarn:0169
+/nowarn:0649
+/unsafe
+/deterministic
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:8.0
+/reference:Library/PlayerScriptAssemblies/UnityEngine.UI.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsNativeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_INPUT_SYSTEM
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_UNITYTLS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MOVIES
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_PHYSICS
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_VIDEO
+/define:ENABLE_VIRTUALTEXTURING
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_WWW
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_STANDARD_2_0
+/define:PLATFORM_ARCH_64
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_SUPPORTS_MONO
+/define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+/define:RENDER_SOFTWARE_CURSOR
+/define:SCENE_TEMPLATE_MODULE
+/define:STARTER_ASSETS_PACKAGES_CHECKED
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_2020_2_OR_NEWER
+/define:UNITY_2020_3
+/define:UNITY_2020_3_32
+/define:UNITY_2020_3_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_64
+/define:UNITY_INPUT_SYSTEM_ENABLE_PHYSICS
+/define:UNITY_INPUT_SYSTEM_ENABLE_PHYSICS2D
+/define:UNITY_INPUT_SYSTEM_ENABLE_UI
+/define:UNITY_INPUT_SYSTEM_ENABLE_VR
+/define:UNITY_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_XR_AVAILABLE
+/define:USE_SEARCH_ENGINE_API
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\AxisComposite.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\ButtonWithOneModifier.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\ButtonWithTwoModifiers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\OneModifierComposite.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\TwoModifiersComposite.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\Vector2Composite.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\Vector3Composite.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\IInputActionCollection.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\IInputInteraction.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputAction.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionAsset.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionChange.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionMap.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionPhase.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionProperty.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionRebindingExtensions.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionReference.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionSetupExtensions.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionState.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionTrace.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionType.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputBinding.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputBindingComposite.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputBindingCompositeContext.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputBindingResolver.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputControlScheme.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputInteractionContext.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Interactions\HoldInteraction.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Interactions\MultiTapInteraction.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Interactions\PressInteraction.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Interactions\SlowTapInteraction.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Interactions\TapInteraction.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\AssemblyInfo.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\AnyKeyControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\AxisControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\ButtonControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\CommonUsages.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\DiscreteButtonControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\DoubleControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\DpadControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlAttribute.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlExtensions.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlLayout.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlLayoutAttribute.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlLayoutChange.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlList.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlPath.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputProcessor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\IntegerControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\KeyControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\AxisDeadzoneProcessor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\ClampProcessor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\CompensateDirectionProcessor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\CompensateRotationProcessor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\EditorWindowSpaceProcessor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\InvertProcessor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\InvertVector2Processor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\InvertVector3Processor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\NormalizeProcessor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\NormalizeVector2Processor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\NormalizeVector3Processor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\ScaleProcessor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\ScaleVector2Processor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\ScaleVector3Processor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\StickDeadzoneProcessor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\QuaternionControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\StickControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\TouchControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\TouchPhaseControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\TouchPressControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Vector2Control.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Vector3Control.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\DisableDeviceCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\EnableDeviceCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\EnableIMECompositionCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\IInputDeviceCommandInfo.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\InitiateUserAccountPairingCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\InputDeviceCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryCanRunInBackground.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryDimensionsCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryEditorWindowCoordinatesCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryEnabledStateCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryKeyNameCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryKeyboardLayoutCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryPairedUserAccountCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QuerySamplingFrequencyCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryUserIdCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\RequestResetCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\RequestSyncCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\SetIMECursorPositionCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\SetSamplingFrequencyCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\WarpMousePositionCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Gamepad.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Haptics\DualMotorRumble.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Haptics\DualMotorRumbleCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Haptics\IDualMotorRumble.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Haptics\IHaptics.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\ICustomDeviceReset.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\IEventMerger.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\IEventPreProcessor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\IInputUpdateCallbackReceiver.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\ITextInputReceiver.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\InputDevice.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\InputDeviceBuilder.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\InputDeviceChange.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\InputDeviceDescription.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\InputDeviceMatcher.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Joystick.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Keyboard.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Mouse.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Pen.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Pointer.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Precompiled\FastKeyboard.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Precompiled\FastMouse.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Precompiled\FastMouse.partial.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Precompiled\FastTouchscreen.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Remote\InputRemoting.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Remote\RemoteInputPlayerConnection.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Sensor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Touchscreen.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\TrackedDevice.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputActionAssetManager.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputActionEditorToolbar.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputActionEditorWindow.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputActionPropertiesView.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputActionTreeView.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputActionTreeViewItems.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputBindingPropertiesView.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\NameAndParameterListView.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\ParameterListView.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\PropertiesViewBase.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetImporter\InputActionAssetEditor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetImporter\InputActionCodeGenerator.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetImporter\InputActionImporter.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetImporter\InputActionImporterEditor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\BuildPipeline\LinkFileGenerator.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\IInputControlPickerLayout.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\InputControlDropdownItem.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\InputControlPathEditor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\InputControlPicker.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\InputControlPickerDropdown.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\InputControlPickerState.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\Layouts\DefaultInputControlPickerLayout.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\Layouts\TouchscreenControlPickerLayout.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Debugger\InputActionDebuggerWindow.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Debugger\InputDebuggerWindow.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Debugger\InputDeviceDebuggerWindow.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\DeviceSimulator\InputSystemPlugin.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\DownloadableSample.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\EditorInputControlLayoutCache.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\InputDiagnostics.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\InputLayoutCodeGenerator.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\InputParameterEditor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdown.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownDataSource.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownGUI.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownItem.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownState.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownWindow.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\CallbackDataSource.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\MultiLevelDataSource.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\EditorHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\GUIHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\InputActionSerializationHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\InputControlTreeView.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\InputEventTreeView.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\InputStateWindow.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\SerializedPropertyHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\TreeViewHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\PropertyDrawers\InputActionDrawer.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\PropertyDrawers\InputActionDrawerBase.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\PropertyDrawers\InputActionMapDrawer.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\PropertyDrawers\InputActionPropertyDrawer.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\PropertyDrawers\InputControlPathDrawer.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Settings\EditorPlayerSettingHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Settings\InputEditorUserSettings.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Settings\InputSettingsBuildProvider.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Settings\InputSettingsProvider.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\ActionEvent.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\DeltaStateEvent.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\DeviceConfigurationEvent.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\DeviceRemoveEvent.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\DeviceResetEvent.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\IInputEventTypeInfo.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\IMECompositionEvent.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEvent.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEventBuffer.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEventListener.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEventPtr.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEventStream.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEventTrace.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\StateEvent.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\TextEvent.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\IInputDiagnostics.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\IInputRuntime.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputAnalytics.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputExtensions.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputFeatureNames.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputManager.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputMetrics.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputSettings.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputSystem.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputSystemObject.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputUpdateType.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\NativeInputRuntime.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Android\AndroidAxis.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Android\AndroidGameController.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Android\AndroidKeyCode.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Android\AndroidSensors.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Android\AndroidSupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\DualShock\DualShockGamepad.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\DualShock\DualShockGamepadHID.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\DualShock\DualShockSupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\DualShock\FastDualShock4GamepadHID.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\DualShock\IDualShockHaptics.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\EnhancedTouch\EnhancedTouchSupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\EnhancedTouch\Finger.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\EnhancedTouch\Touch.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\EnhancedTouch\TouchHistory.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\EnhancedTouch\TouchSimulation.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\HID\HID.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\HID\HIDDescriptorWindow.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\HID\HIDParser.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\HID\HIDSupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Linux\LinuxSupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Linux\SDLDeviceBuilder.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\OnScreen\OnScreenButton.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\OnScreen\OnScreenControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\OnScreen\OnScreenStick.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\OnScreen\OnScreenSupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\DefaultInputActions.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\InputValue.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerInput.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerInputEditor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerInputManager.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerInputManagerEditor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerJoinBehavior.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerNotifications.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Steam\IStreamControllerAPI.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Steam\SteamController.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Steam\SteamControllerType.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Steam\SteamHandle.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Steam\SteamIGAConverter.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Steam\SteamSupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Switch\SwitchProControllerHID.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Switch\SwitchSupportHID.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\BaseInputOverride.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\ExtendedAxisEventData.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\ExtendedPointerEventData.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\InputSystemUIInputModule.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\InputSystemUIInputModuleEditor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\MultiplayerEventSystem.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\NavigationModel.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\PointerModel.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\StandaloneInputModuleEditor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\TrackedDeviceRaycaster.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\UISupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\VirtualMouseInput.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UnityRemote\UnityRemoteSupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Users\InputUser.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Users\InputUserAccountHandle.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Users\InputUserChange.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Users\InputUserPairingOptions.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Users\InputUserSettings.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\WebGL\WebGLGamepad.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\WebGL\WebGLJoystick.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\WebGL\WebGLSupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XInput\IXboxOneRumble.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XInput\XInputController.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XInput\XInputControllerWindows.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XInput\XInputSupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XInput\XboxGamepadMacOS.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Controls\PoseControl.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Devices\GoogleVR.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Devices\Oculus.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Devices\OpenVR.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Devices\WindowsMR.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\GenericXRDevice.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Haptics\BufferedRumble.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Haptics\GetCurrentHapticStateCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Haptics\GetHapticCapabilitiesCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Haptics\SendBufferedHapticsCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Haptics\SendHapticImpulseCommand.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\TrackedPoseDriver.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\XRLayoutBuilder.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\XRSupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\iOS\IOSGameController.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\iOS\InputSettingsiOS.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\iOS\InputSettingsiOSProvider.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\iOS\iOSPostProcessBuild.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\iOS\iOSStepCounter.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\iOS\iOSSupport.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\IInputStateCallbackReceiver.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\IInputStateChangeMonitor.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\IInputStateTypeInfo.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\InputState.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\InputStateBlock.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\InputStateBuffers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\InputStateHistory.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\ArrayHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\CSharpCodeHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\CallbackArray.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Comparers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\DelegateHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\DisplayStringFormatAttribute.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\DynamicBitfield.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\ExceptionHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\FourCC.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\InlinedArray.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\InternedString.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\JsonParser.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\MemoryHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\MiscHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\NameAndParameters.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\NamedValue.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\NumberHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\ForDeviceEventObservable.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\Observable.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\Observer.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\SelectManyObservable.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\SelectObservable.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\TakeNObservable.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\WhereObservable.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\OneOrMore.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\PrimitiveValue.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\ReadOnlyArray.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\SavedState.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\StringHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Substring.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\TypeHelpers.cs
+D:\UNITYPROJECTS\ForestScape\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\TypeTable.cs
