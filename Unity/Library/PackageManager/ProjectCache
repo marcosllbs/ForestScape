@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637902443602890323
-    m_Hash: 807484090
+      ticks: 637902447596300469
+    m_Hash: 1061234948
   m_LockFileStatus:
     m_FilePath: C:/Users/Marcos/Documents/GitHub/ForestScape/Unity/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637902443780171309
-    m_Hash: 1847244854
+      ticks: 637902447596300469
+    m_Hash: 2633019519
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
